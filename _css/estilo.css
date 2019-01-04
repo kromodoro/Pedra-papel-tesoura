@@ -1,0 +1,41 @@
+div {
+	position: relative;
+	margin-left: 18%;
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+ul li {display: inline;cursor: pointer;}
+ul li img:hover {animation: giro .5s infinite;}
+
+p {margin-left: 60%;}
+
+p input {
+	padding: 8px;
+	background-color: #0000ff;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+input:hover {opacity: .9}
+
+#container {
+	width: 500px;
+	height: 250px;
+	margin-left: 30%;
+}
+td {padding: 2px;background-color: rgba(192,168,101,.9);}
+
+#danca {margin-left: 35%; opacity: 0;}
+
+#container,#danca:hover {opacity: 1;}
+
+@keyframes giro {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(5deg);}
+
+	}
